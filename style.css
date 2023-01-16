@@ -1,15 +1,110 @@
+:root {
+    --primary: #128C76;
+    --secondry: #F56B8D;
+}
+body{
+    font-family: 'Josefin Sans', normal;
+ }
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px
+}
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+span{color: #128C76;}
+.main-section{
+    padding: 0 15%;
+}
 .header {
-    padding:0 20%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 4px;
-
+}
+.header > :first-child{
+    color: var(--primary);
+    font-size: 24px;
+    line-height: 24px;
 }
 .nav-bar, .div-login{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 40px 14px;
+    padding: 16px 0px 14px ;
     gap: 36px;
 }
+.btn-register{
+    color: var(--secondry);
+    text-transform: uppercase;
+    padding: 16px 30px 14px 30px;
+    border-color: var(--secondry);
+    cursor: pointer;
+}
+.btn-login{
+    background-color: var(--primary);
+    text-transform: uppercase;
+    padding: 16px 30px 14px 30px;
+    color: #fff;
+    border-color: var(--primary);
+    cursor: pointer;
+}
+.middle-section{
+    background-image:url(./poto/Img.png);
+    width: 100%;
+    height: 48.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.btn-getstarted{
+    padding: 24px 40px 22px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+    cursor: pointer;
+}
+.middle-section1{
+    text-align: center;
+    padding: 6.25rem;
+}
+.middle-section1>:last-child{
+    color: #999999;
+}
+.div-stick{
+    width: 182px;
+    height: 8px;
+    background-color: var(--primary);
+    margin: 24px 0;
+}
+.last-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    width: 370px;
+    padding:1rem ;
+}
+.allproject{
+    text-align: center;
+    color: var(--secondry);
+    text-transform: uppercase;
+    padding: 16px 30px 14px 30px;
+    border-color: var(--secondry);
+    cursor: pointer;
+}
+
