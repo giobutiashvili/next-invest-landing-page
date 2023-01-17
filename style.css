@@ -14,11 +14,13 @@ h2{
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
+    padding: 2rem 0;
 }
 h3{
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
+    padding: 1rem 0;
 }
 h4{
     font-weight: 400;
@@ -96,7 +98,7 @@ span{color: #128C76;}
     flex-wrap: wrap;
 }
 .a{
-    width: 370px;
+    width: 23rem;
     padding:1rem ;
 }
 .allproject{
@@ -104,7 +106,33 @@ span{color: #128C76;}
     color: var(--secondry);
     text-transform: uppercase;
     padding: 16px 30px 14px 30px;
+    border: 2px solid #F56B8D;
     border-color: var(--secondry);
     cursor: pointer;
 }
+.last-section1{
+    text-align: center;
+    padding-top: 2.85rem;
+}
+.chart{
+    display: flex;
+    padding: 2.5rem 0;
+}
+.section-tree{
+    display: flex;
+    padding: 2.5rem 0;
+}
+
+.Apply-Online{
+    text-align: center;
+    padding: 24px 40px 22px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+    cursor: pointer;
+
+}
+
+
 
